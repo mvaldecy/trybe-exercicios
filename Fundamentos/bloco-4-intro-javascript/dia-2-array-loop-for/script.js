@@ -2,7 +2,6 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 console.log ('Resultados')
 let separador ='----------------------------------------'
-console.log (separador)
 
 /* 1)Nesse primeiro exercício, percorra o array 
 imprimindo todos os valores nele contidos com a 
@@ -96,9 +95,16 @@ let newArr = [];
 for (let i =1;i<=25;i++){
     newArr.push(i)
 }
-console.log(newArr )
+console.log(newArr)
 
+/* 9)Utilizando o array criado no exercício
+ anterior imprima o resultado da divisão de
+cada um dos elementos por 2 . */
+console.log(separador)
+console.log('9ª questão')
+for (let i=0;i<newArr.length;i++){
+  console.log (newArr[i]/2)
+}
 
-
-
-
+//Fim
+console.log(separador)
