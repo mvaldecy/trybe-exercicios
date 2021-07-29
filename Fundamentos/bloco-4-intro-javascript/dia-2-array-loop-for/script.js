@@ -38,5 +38,20 @@ if (media > 20){
 else {
     console.log('valor menor que 20')
 }
+/* 5)Utilizando for , descubra qual 
+o maior valor contido no array e imprima-o;
+*/
+console.log(separador)
+console.log('5ª questão')
+let maior = 0;
+for (let i=0;i<numbers.length;i++){
+    if (numbers[i] > maior){
+        maior = numbers[i]
+    }
+}
+console.log (maior) //referencia: https://pt.stackoverflow.com/a/35204
+console.log ('referencia: https://pt.stackoverflow.com/a/35204')
+
+
 
 
