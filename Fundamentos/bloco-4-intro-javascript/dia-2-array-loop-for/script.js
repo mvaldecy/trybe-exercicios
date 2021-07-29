@@ -61,8 +61,7 @@ console.log ('referencia: https://pt.stackoverflow.com/a/35204')
 /* 6)Descubra quantos valores ímpares existem no
  array e imprima o resultado.
  Caso não exista nenhum, imprima a mensagem:
-  "nenhum valor ímpar encontrado";
-  */
+  "nenhum valor ímpar encontrado"; */
  console.log(separador)
  console.log('6ª questão')
  let i = 0
@@ -74,8 +73,20 @@ console.log ('referencia: https://pt.stackoverflow.com/a/35204')
          impares++
      }
  }
-console.log('Quantidade de números ímpares' + impares)
+console.log('Quantidade de números ímpares: ' + impares)
 console.log('Os números ímpares são: ' + imparesArr)
+
+/* 7)Utilizando for , descubra qual o menor valor
+ contido no array e imprima-o; */
+ console.log(separador)
+ console.log('7ª questão')
+ let menor = 100000000
+ for (let i=0;i<numbers.length;i++){
+     if (numbers[i]< menor){
+         menor = numbers[i]
+     }
+ }
+console.log (menor)
 
 
 
