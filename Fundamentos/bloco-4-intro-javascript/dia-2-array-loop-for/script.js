@@ -88,5 +88,17 @@ console.log('Os números ímpares são: ' + imparesArr)
  }
 console.log (menor)
 
+/* 8)Utilizando for , crie um array que 
+vá de 1 até 25 e imprima o resultado;*/
+console.log(separador)
+console.log('8ª questão')
+let newArr = [];
+for (let i =1;i<=25;i++){
+    newArr.push(i)
+}
+console.log(newArr )
+
+
+
 
 
