@@ -19,3 +19,11 @@ for (let i=0;i<numbers.length;i++){
     soma += numbers[i]
 }
 console.log(soma)
+/*Para o terceiro exercício, calcule e imprima 
+a média aritmética dos valores contidos no array;*/
+console.log(separador)
+console.log('3ª questão')
+let media =soma/numbers.length
+console.log (media)
+
+
