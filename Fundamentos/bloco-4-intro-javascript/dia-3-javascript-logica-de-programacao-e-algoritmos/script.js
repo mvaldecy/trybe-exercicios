@@ -16,3 +16,21 @@ for (let i = 0; i < tamanho; i++ ){
 }
 console.log('n = ' + tamanho)
 console.log(quadrado)
+
+/* 2) Para o segundo exercício, 
+faça o mesmo que antes, mas que imprima um triângulo 
+retângulo com 5 asteriscos de base. */
+console.log(separador)
+console.log ('2ª questão')
+let triangulo = '';
+for (let i = 0; i < tamanho; i++){
+    for (let j = 0 ; j < tamanho; j++){
+        if (j>i){
+            triangulo += ' ';
+        } else {
+            triangulo += '*'
+        }
+    }
+    triangulo += '\n'
+}
+console.log (triangulo)
