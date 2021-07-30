@@ -34,3 +34,22 @@ for (let i = 0; i < tamanho; i++){
     triangulo += '\n'
 }
 console.log (triangulo)
+
+// 3) agora inverta o lado do triângulo
+console.log(separador)
+console.log('3ª questão')
+ 
+let triangulo2 = '';
+for (let i = 0; i < tamanho; i++){
+    for (let j = 0 ; j < tamanho; j++){
+     if (i+j >= tamanho-1){
+         triangulo2+='*'
+     }
+     else {
+         triangulo2 += ' '
+     }
+}
+triangulo2 += '\n'
+}
+
+console.log (triangulo2)
