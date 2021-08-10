@@ -1,6 +1,6 @@
 // parte 1 - Obejetor e For/in
 let separador = '-----------------------';
-
+console.log ('Parte 1 - Objetos e For/in')
 
 console.log ('1ª questão')
 
@@ -46,5 +46,14 @@ let info = {
       console.log (info[i] +' e '+ info2[i])
       
     }
+console.log (separador)
+console.log ('Parte 2 - Funções')
+console.log ('1ª questão')
+let string =''
 
-
+function verificaPalindromo (string) {
+    aux = string
+    aux.reverse()
+    console.log(aux)
+}
+verificaPalindromo(string)
