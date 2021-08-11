@@ -98,11 +98,13 @@
           listaDeNumeros.innerText = numeros;
           section3.appendChild(listaDeNumeros)
         }
-        
+        // 9 Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+          let n = 3;
 
-
-        //Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
-
+          for (let i = 0; i < n; i++){
+            let h3 = document.createElement('h3')
+            main.appendChild(h3) 
+          }
     </script>
   </body>
 </html>
