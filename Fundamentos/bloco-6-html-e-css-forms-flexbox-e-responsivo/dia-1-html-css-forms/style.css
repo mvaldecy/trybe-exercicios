@@ -1,0 +1,26 @@
+* {
+  background-color: antiquewhite;
+}
+
+div {
+  margin: 10px;
+
+}
+
+input{
+  display: flex;
+  border-radius: 8px;
+}
+
+fieldset {
+  border: none;
+}
+select {
+  display: flex;
+  
+}
+
+
+
+
+

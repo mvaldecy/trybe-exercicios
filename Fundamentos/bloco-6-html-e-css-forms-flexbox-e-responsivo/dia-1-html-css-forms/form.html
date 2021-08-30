@@ -1,0 +1,47 @@
+<!DOCTYPE html >
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,
+         initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        
+        
+        <title>Formulário</title>
+    </head>
+    <body>
+        
+        <legend><h1>Currículo</h1></legend>
+        <fieldset>
+            <div class="Dados">
+                <label for="name">Nome:</label>
+                <input type="text" for='name' maxlength="40" required>
+            </div>
+            <div class="Dados">
+                <label>E-mail:</label>
+                <input type="email" required maxlength="50">
+            </div>
+            <div class="Dados">
+                <label>CPF:</label>
+                <input type="number" required
+                pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+            </div>
+            <div class="Dados">
+                <label>Endereço:</label>
+                <input type="text" required>
+            </div class="Dados">
+            <div>
+                <label>Cidade:</label>
+                <input type="text" required>
+            </div>
+            <div>
+                <label> Estado:</label>
+                <select name="Estado" required>
+                    <option>Selecione o estado:</option>
+                </select>
+            </div>
+        </fieldset>
+        <script src="script.js"></script>
+    </body>
+</html>
