@@ -163,4 +163,36 @@ const expectedResult = [
   
   assert.deepStrictEqual(fantasyOrScienceFiction(), expectedResult3);
 
+  const expectedResult4 = [
+    {
+      id: 6,
+      name: 'O Chamado de Cthulhu',
+      genre: 'Terror',
+      author: { name: 'H. P. Lovecraft', birthYear: 1890 },
+      releaseYear: 1928,
+    },
+    {
+      id: 3,
+      name: 'Fundação',
+      genre: 'Ficção Científica',
+      author: { name: 'Isaac Asimov', birthYear: 1920 },
+      releaseYear: 1951,
+    },
+    {
+      id: 2,
+      name: 'O Senhor dos Anéis',
+      genre: 'Fantasia',
+      author: { name: 'J. R. R. Tolkien', birthYear: 1892 },
+      releaseYear: 1954,
+    },
+  ];
+  
+  function oldBooksOrdered() {
+    // escreva seu código aqui
+    return books
+    .filter((book) => (2021 - book.releaseYear) > 60)
+    .sort((obj1, obj2) => obj1.releaseYear - obj2.releaseYear)
+  }
+  
+  assert.deepStrictEqual(oldBooksOrdered(), expectedResult4);
    
