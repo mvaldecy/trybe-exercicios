@@ -115,3 +115,19 @@ function reduceNames() {
 }
 console.log (reduceNames())
 assert.strictEqual(reduceNames(), expectedResult);
+
+//---------------------------------------------
+
+const expectedResult3 = 43;
+
+function averageAge() {
+  // escreva seu código aqui
+  const numberOfBooks = books.length;
+  const sumOfAges = books.reduce((sum, book) => (
+      sum + (book.releaseYear - book.author.birthYear)
+  ), 0)
+    return sumOfAges / numberOfBooks;
+}
+
+
+assert.strictEqual(averageAge(), expectedResult3);
